@@ -8,7 +8,7 @@ public class circleareaandcircumferencecalculator
         c=circumference */
         double a,b,c;
         try (Scanner read = new Scanner(System.in)) {
-            while(1>0)
+            while(true)
             {
                 System.out.println("HELLO");
                 System.out.println("WELCOME TO AREA AND CIRCUMFERENCE CALCULATOR");
@@ -37,4 +37,5 @@ public class circleareaandcircumferencecalculator
         }
 
     }
+
 }
