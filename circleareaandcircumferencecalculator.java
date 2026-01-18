@@ -10,27 +10,33 @@ public class circleareaandcircumferencecalculator
         try (Scanner read = new Scanner(System.in)) {
             while(true)
             {
-                System.out.println("HELLO");
-                System.out.println("WELCOME TO AREA AND CIRCUMFERENCE CALCULATOR");
-                System.out.println("ENTRE RADIUS OF CIRCLE");
+                System.out.println("Hello");
+                System.out.println("Wwelcom to Area and Circumference Calculator");
+                System.out.println("Entre Radius of the Circle");
                 a=read.nextDouble();
                 if (a>0)
                 {
                     b=(22* Math.pow(a, 2))/7;
                     c=(2*22*a)/7;
-                    System.out.println("AREA OF CIRCLE IS");
+                    System.out.println("Area of the Circle is");
                     System.out.println(b);
-                    System.out.println("CIRCUMFERENCE OF CIRCLE IS");
+                    System.out.println("Circumference of the Circle is");
                     System.out.println(c);
-                    System.out.println("THANKS");
-                    System.out.println("BYE");
+                    System.out.println("Thank you");
+                    System.out.println("Bye");
                     System.out.println(".");
 
                 }
                 if (a<0)
                 {
-                    System.out.println("RADIUS CANT BE NEGATIVE");
-                    System.out.println("TRY AGAIN");
+                    System.out.println("Radius cant be negative");
+                    System.out.println("Try again");
+                    System.out.println(".");
+                }
+                if (a==0)
+                {
+                    System.out.println("Radius cant be zero");
+                    System.out.println("Try again");
                     System.out.println(".");
                 }
             }
@@ -39,3 +45,4 @@ public class circleareaandcircumferencecalculator
     }
 
 }
+
