@@ -27,13 +27,13 @@ public class circleareaandcircumferencecalculator
                     System.out.println(".");
 
                 }
-                if (a<0)
+                else if (a<0)
                 {
                     System.out.println("Radius cant be negative");
                     System.out.println("Try again");
                     System.out.println(".");
                 }
-                if (a==0)
+                else if (a==0)
                 {
                     System.out.println("Radius cant be zero");
                     System.out.println("Try again");
@@ -45,4 +45,5 @@ public class circleareaandcircumferencecalculator
     }
 
 }
+
 
